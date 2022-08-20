@@ -14,7 +14,7 @@ func initExchangeRates()() {
 	bank.AddExchangeRate("USD", "KRW", 1100)
 }
 
-func TestMultiplicaition(t *testing.T) {
+func TestMultiplication(t *testing.T) {
 	tenEuros := s.NewMoney(10, "EUR")
 	actualResult := tenEuros.Times(2)
 	expectedResult := s.NewMoney(20, "EUR")
